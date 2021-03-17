@@ -41,4 +41,3 @@ Within ```military-jets-API```, use ```python manage.py runserver``` and navigat
 ## Change Log
 
 1.0: *RESTful API complete* - 17 Mar 2021
-# drf-api
