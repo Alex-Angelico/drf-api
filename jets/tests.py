@@ -11,7 +11,7 @@ class JetTests(TestCase):
     testuser1 = get_user_model().objects.create_user(username='testuser1', password='password',)
     testuser1.save()
 
-    test_post = Jets.objects.create(
+    jet_fighter = Jets.objects.create(
       name = 'F-35',
       country_origin = 'USA',
       description = 'Multirole fighter/bomber',
