@@ -25,7 +25,7 @@ class JetTests(TestCase):
       actual_name = str(jet.name)
       actual_country_origin = str(jet.country_origin)
       actual_description = str(jet.description)
-      actual_engine_count = str (jet.engine_count)
+      actual_engine_count = str(jet.engine_count)
       actual_added_by = str(jet.added_by)
       self.assertEqual(actual_name, 'F-35')
       self.assertEqual(actual_country_origin, 'USA')
